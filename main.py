@@ -12,3 +12,6 @@ print("Hi !!\n How \tare \byou !!How\f is\r everything\t going\v? ")
 
 # String Concatenation
 print("hello" + "Vibhor")
+
+# Finishing String Concatenation
+print("hello" + " " + "Vibhor")
