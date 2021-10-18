@@ -65,3 +65,11 @@ print(name)
 print(70 + float(100.5))
 print(str(70) + str(100.5))
 
+# P5
+# WAP that adds digits in a 2 digit number . If the input was 24 , the output should be 6
+
+a  = input("Enter the first number a: ")
+first_digit = a[0]
+second_digit = a[1]
+result = int(first_digit)+ int(second_digit)
+print("the value of "+ str(result))
