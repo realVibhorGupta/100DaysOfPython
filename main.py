@@ -28,6 +28,26 @@ print("New lines can be created with a \n Hurray")
 
 # P-3
 
-name = input("What is your name?\n")
-print(len(name))
+# name = input("What is your name?\n")
+# print(len(name))
+
+# Variables
+name= "Vibhor"
+print(name)
+
+# P=4
+# SWAP the values of the variables a and b using user input
+
+# take two varaibles a znd B 
+# we take another variable c 
+# store the values of let us say b into c and then intert=change the valuyes 
+# finally store The value of c to the the remaining variable
+
+a = input("Inpout The value of a=")
+b = input("Inpout The value of b=")
+c = a
+a = b 
+b = c 
+print("the value of a : "+ a + "\n" + "the value of b : "+ b)
+
 
