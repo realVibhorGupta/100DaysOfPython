@@ -24,4 +24,10 @@ print("New lines can be created with a \n Hurray")
 
 
 # input the  data
-input("What is your name?\n")
+# input("What is your name?\n")
+
+# P-3
+
+name = input("What is your name?\n")
+print(len(name))
+
