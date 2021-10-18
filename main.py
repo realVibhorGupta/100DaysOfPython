@@ -43,12 +43,16 @@ print(name)
 # store the values of let us say b into c and then intert=change the valuyes 
 # finally store The value of c to the the remaining variable
 
-a = input("Inpout The value of a=")
-b = input("Inpout The value of b=")
-c = a
-a = b 
-b = c 
-print("the value of a : "+ a + "\n" + "the value of b : "+ b)
+# a = input("Inpout The value of a=")
+# b = input("Inpout The value of b=")
+# c = a
+# a = b 
+# b = c 
+# print("the value of a : "+ a + "\n" + "the value of b : "+ b)
 
+# Data Types
+# Int ,  String  ,Float , Boolean 
+print("Hello"[4])
+print("123"+"456")
 
 
