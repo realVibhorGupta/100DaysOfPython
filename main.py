@@ -52,13 +52,16 @@ print(name)
 
 # Data Types
 # Int ,  String  ,Float , Boolean 
-print("Hello"[4])
-print("123"+"456")
+# print("Hello"[4])
+# print("123"+"456")
 
-# Fix Type Error
-num_char = len(input("What is your name?\n"))
-# print("Your name has " + num_char + "characters.")
-print(type(num_char))
-# Type Casting
+# # Fix Type Error
+# num_char = len(input("What is your name?\n"))
+# # print("Your name has " + num_char + "characters.")
+# print(type(num_char))
+# # Type Casting
 
-print("Your name has " + str(num_char) + " characters.")
+# print("Your name has " + str(num_char) + " characters.")
+print(70 + float(100.5))
+print(str(70) + str(100.5))
+
