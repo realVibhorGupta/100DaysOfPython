@@ -73,3 +73,14 @@ first_digit = a[0]
 second_digit = a[1]
 result = int(first_digit)+ int(second_digit)
 print("the value of "+ str(result))
+
+
+# PEMDAS equalivlent to BODMAS in Maths
+# PS-6
+# Calculate The BMI
+height = input("Enter your height in m: ")
+weight = input("Enter your weight in kg: ")
+
+bmi = int(weight) / float(height) ** 2
+print("bmi is: " + str(bmi) )
+
