@@ -21,3 +21,7 @@ print("DAY 1 -  STRING MAIPULATION")
 print("String Concatenation is fone with the "+" " + "sign.")
 print ("e.g print(" + "Hello" + " "  +"world)")
 print("New lines can be created with a \n Hurray") 
+
+
+# input the  data
+input("What is your name?\n")
