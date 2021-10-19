@@ -96,20 +96,37 @@ print(type(8 // 3))
 
 # Control Statements
 
-print("Welcome to Code")
-height = int(input("What is your height in cm : "))
-if height > 120 :
-    print("you can ride")
-else:
-  print("you cannot ride")
+# print("Welcome to Code")
+# height = int(input("What is your height in cm : "))
+# if height > 120 :
+#     print("you can ride")
+# else:
+#   print("you cannot ride")
 
-#  Code Challenge 
-# ODD or EVEN
+# #  Code Challenge 
+# # ODD or EVEN
 
-odd_or_even = int(input("Enter any number : "))
-if odd_or_even % 2 == 0 :
-  print(f"Number {odd_or_even} is even")
-else:
-  print(f"Number {odd_or_even} is odd")
+# odd_or_even = int(input("Enter any number : "))
+# if odd_or_even % 2 == 0 :
+#   print(f"Number {odd_or_even} is even")
+# else:
+#   print(f"Number {odd_or_even} is odd")
+
+# BMI Excercise 2 
+height = float (input("enter your height in meters : "))
+weight = float (input("enter your weight in kilograms : "))
+bmi = round(weight/height ** 2)
+if bmi < 18.5 :
+  print(f"Your bmi is {bmi} and you are underweight.")
+elif bmi < 25:
+  print(f"Your bmi is {bmi} and you are normal weight.")
+elif bmi < 30  :
+   print(f"Your bmi is {bmi} and you are over weight.")
+elif bmi < 35 :
+   print(f"Your bmi is {bmi} and you are obese.")
+else :
+   print(f"Your bmi is {bmi} and you are clinically obese.")
+
+
 
 
