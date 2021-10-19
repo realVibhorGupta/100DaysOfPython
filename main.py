@@ -113,20 +113,34 @@ print(type(8 // 3))
 #   print(f"Number {odd_or_even} is odd")
 
 # BMI Excercise 2 
-height = float (input("enter your height in meters : "))
-weight = float (input("enter your weight in kilograms : "))
-bmi = round(weight/height ** 2)
-if bmi < 18.5 :
-  print(f"Your bmi is {bmi} and you are underweight.")
-elif bmi < 25:
-  print(f"Your bmi is {bmi} and you are normal weight.")
-elif bmi < 30  :
-   print(f"Your bmi is {bmi} and you are over weight.")
-elif bmi < 35 :
-   print(f"Your bmi is {bmi} and you are obese.")
-else :
-   print(f"Your bmi is {bmi} and you are clinically obese.")
+# height = float (input("enter your height in meters : "))
+# weight = float (input("enter your weight in kilograms : "))
+# bmi = round(weight/height ** 2)
+# if bmi < 18.5 :
+#   print(f"Your bmi is {bmi} and you are underweight.")
+# elif bmi < 25:
+#   print(f"Your bmi is {bmi} and you are normal weight.")
+# elif bmi < 30  :
+#    print(f"Your bmi is {bmi} and you are over weight.")
+# elif bmi < 35 :
+#    print(f"Your bmi is {bmi} and you are obese.")
+# else :
+#    print(f"Your bmi is {bmi} and you are clinically obese.")
 
 
-
+# Leap Year 
+# Condition
+# year  % 4 == 0 
+# year is not divisible by 100 unless it % 400 = 0
+year = int(input("Enter the year : "))
+if year % 4 == 0 :
+  if year % 100 == 0 :
+    if year %  400 == 0:
+        print("It is  a leap year")
+    else: 
+      print("It is not a leap year")
+  else: 
+    print("It is not a leap year")
+else: 
+  print("It is not a leap year")
 
