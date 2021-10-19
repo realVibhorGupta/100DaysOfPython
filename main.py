@@ -102,3 +102,14 @@ if height > 120 :
     print("you can ride")
 else:
   print("you cannot ride")
+
+#  Code Challenge 
+# ODD or EVEN
+
+odd_or_even = int(input("Enter any number : "))
+if odd_or_even % 2 == 0 :
+  print(f"Number {odd_or_even} is even")
+else:
+  print(f"Number {odd_or_even} is odd")
+
+
