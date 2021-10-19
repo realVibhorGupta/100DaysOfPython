@@ -68,19 +68,37 @@ print(str(70) + str(100.5))
 # P5
 # WAP that adds digits in a 2 digit number . If the input was 24 , the output should be 6
 
-a  = input("Enter the first number a: ")
-first_digit = a[0]
-second_digit = a[1]
-result = int(first_digit)+ int(second_digit)
-print("the value of "+ str(result))
+# a  = input("Enter the first number a: ")
+# first_digit = a[0]
+# second_digit = a[1]
+# result = int(first_digit)+ int(second_digit)
+# print("the value of "+ str(result))
 
 
 # PEMDAS equalivlent to BODMAS in Maths
 # PS-6
 # Calculate The BMI
-height = input("Enter your height in m: ")
-weight = input("Enter your weight in kg: ")
+# height = input("Enter your height in m: ")
+# weight = input("Enter your weight in kg: ")
 
-bmi = int(weight) / float(height) ** 2
-print("bmi is: " + str(bmi) )
+# bmi = int(weight) / float(height) ** 2
+# print("bmi is: " + str(bmi) )
 
+# Number Manipulation and F Strings 
+print(int(8/3))
+
+print(round(8/3,8))
+
+print(type(8 // 3))
+
+# String Inetrpolation use {} in the String with using f""eg . f" foo {value}"
+
+
+# Control Statements
+
+print("Welcome to Code")
+height = int(input("What is your height in cm : "))
+if height > 120 :
+    print("you can ride")
+else:
+  print("you cannot ride")
