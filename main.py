@@ -93,6 +93,7 @@ print(type(8 // 3))
 
 # String Inetrpolation use {} in the String with using f""eg . f" foo {value}"
 
+<<<<<<< HEAD
 
 # Control Statements
 
@@ -143,4 +144,6 @@ if year % 4 == 0 :
     print("It is not a leap year")
 else: 
   print("It is not a leap year")
+=======
+>>>>>>> origin/master
 
