@@ -93,7 +93,6 @@ print(type(8 // 3))
 
 # String Inetrpolation use {} in the String with using f""eg . f" foo {value}"
 
-<<<<<<< HEAD
 
 # Control Statements
 
@@ -133,17 +132,44 @@ print(type(8 // 3))
 # Condition
 # year  % 4 == 0 
 # year is not divisible by 100 unless it % 400 = 0
-year = int(input("Enter the year : "))
-if year % 4 == 0 :
-  if year % 100 == 0 :
-    if year %  400 == 0:
-        print("It is  a leap year")
-    else: 
-      print("It is not a leap year")
-  else: 
-    print("It is not a leap year")
-else: 
-  print("It is not a leap year")
-=======
->>>>>>> origin/master
+# year = int(input("Enter the year : "))
+# if year % 4 == 0 :
+#   if year % 100 == 0 :
+#     if year %  400 == 0:
+#         print("It is  a leap year")
+#     else: 
+#       print("It is not a leap year")
+#   else: 
+#     print("It is not a leap year")
+# else: 
+#   print("It is not a leap year")
+
+# Pizza Order Excercise
+
+# print("Welcome to Python Pizza Delivery")
+# size = input("What size pizza do you want? S ,M , L")
+# add_peparoni = input("Do you want peparoni? Y or N")
+# add_extra_cheese = input("Do you want extra_cheese? Y or N")
+
+#Randomization
+import random
+
+random_integer = random.randint(1,10)
+print(f"random number between 1 and 10 is {random_integer}")
+
+random_float = random.uniform(1,5)
+print(f"random float number between 1 and 5 is {random_float}")
+
+
+#Head or Tail  Game 
+head_or_tail = random.randint(0,1)
+if  head_or_tail == 1:
+  print("Tails")
+else:
+  print("Head")
+
+
+
+
+# choice   = input("What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors. ")
 
