@@ -193,13 +193,7 @@ from leap_year_using_functions import isLeapYear
 print(isLeapYear(2000))
 
 
-# WAP to calculate the average heioght from the lists of height
-# students_height = input("Input a list of student heights").split()
-# for n in range(0, len(students_height)):
-#     students_height[n] = int(students_height[n])
-# print(students_height)
 
-# # Cannot use len and sun function 
 
 
 
@@ -207,3 +201,32 @@ print(isLeapYear(2000))
 fruits = ["Apple","Orange","Pear"]
 for fruit in fruits:
   print(fruit)
+  print(fruits)
+
+
+# Problem Set 5-A
+
+
+# WAP to calculate the average heioght from the lists of height
+students_height = input("Input a list of student heights").split()
+for n in range(0, len(students_height)):
+    students_height[n] = int(students_height[n])
+print(students_height)
+
+# # Cannot use len and sun function 
+# Don't use len() and sum()
+# Here used height so that value of indidual; height is added to the total_height variable when loop iterates
+total_height = 0
+for height in students_height:
+  total_height += height
+print(total_height)
+
+# here used 1 because it will add the number of time the loop runs 
+number_of_students = 0
+for student in students_height:
+  number_of_students +=1
+print(number_of_students)
+
+average = total_height / number_of_students
+
+print(round(average))
