@@ -207,26 +207,40 @@ for fruit in fruits:
 # Problem Set 5-A
 
 
-# WAP to calculate the average heioght from the lists of height
-students_height = input("Input a list of student heights").split()
-for n in range(0, len(students_height)):
-    students_height[n] = int(students_height[n])
-print(students_height)
+# # WAP to calculate the average heioght from the lists of height
+# students_height = input("Input a list of student heights").split()
+# for n in range(0, len(students_height)):
+#     students_height[n] = int(students_height[n])
+# print(students_height)
 
 # # Cannot use len and sun function 
 # Don't use len() and sum()
 # Here used height so that value of indidual; height is added to the total_height variable when loop iterates
-total_height = 0
-for height in students_height:
-  total_height += height
-print(total_height)
+# total_height = 0
+# for height in students_height:
+#   total_height += height
+# print(total_height)
 
-# here used 1 because it will add the number of time the loop runs 
-number_of_students = 0
-for student in students_height:
-  number_of_students +=1
-print(number_of_students)
+# # here used 1 because it will add the number of time the loop runs 
+# number_of_students = 0
+# for student in students_height:
+#   number_of_students +=1
+# print(number_of_students)
 
-average = total_height / number_of_students
+# average = total_height / number_of_students
 
-print(round(average))
+# print(round(average))
+
+students_scores = input("Input a list of stuydents")
+highest_score = 0
+for n in range(0,len(students_scores)):
+    students_scores[n] = int(students_scores[n])
+print(students_scores)
+# Don't use min and max 
+for score in students_scores:
+  if score > highest_score:
+    highest_score = score
+print(f"The highest score is {highest_score}")
+
+
+
