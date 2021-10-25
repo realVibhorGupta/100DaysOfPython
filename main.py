@@ -232,17 +232,49 @@ for fruit in fruits:
 # print(round(average))
 
 # This is spliting the string input  into a list datatype
-students_scores = input("Input a list of students").split()
-highest_score = 0
-# This will convert the values from string to int
-for n in range(0,len(students_scores)):
-    students_scores[n] = int(students_scores[n])
-print(students_scores)
-# Don't use min and max 
-for score in students_scores:
-  if score > highest_score:
-    highest_score = score
-print(f"The highest score is {highest_score}")
+# students_scores = input("Input a list of students").split()
+# highest_score = 0
+# # This will convert the values from string to int
+# for n in range(0,len(students_scores)):
+#     students_scores[n] = int(students_scores[n])
+# print(students_scores)
+# # Don't use min and max 
+# for score in students_scores:
+#   if score > highest_score:
+#     highest_score = score
+# print(f"The highest score is {highest_score}")
+
+# Range
+# It will leave The last number ,the third parameter  is interval between numbers
+for number in range(1,10,3):
+  print(number) 
+
+
+# Add all numbers from 1 to 100
+# total = 0 
+# for number in range(1,100):
+#   total += number
+
+# print(total)
+
+
+# WAP to calculate the sum of even numbers from 1 to 100
+
+total = 0 
+for counter in range(1,101,2):
+   total += counter
+print(total)
+
+# Swecond way without range with interval
+totall = 0
+for counter in range(1,101):
+  if counter % 2 == 0:
+     totall += counter
+print(totall)
+
+
+
+
 
 
 
