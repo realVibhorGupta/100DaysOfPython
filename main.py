@@ -231,8 +231,10 @@ for fruit in fruits:
 
 # print(round(average))
 
-students_scores = input("Input a list of stuydents")
+# This is spliting the string input  into a list datatype
+students_scores = input("Input a list of students").split()
 highest_score = 0
+# This will convert the values from string to int
 for n in range(0,len(students_scores)):
     students_scores[n] = int(students_scores[n])
 print(students_scores)
