@@ -1,6 +1,6 @@
 
 
   
-def simple_function():
-  result = 3 * 2
-  return result
+# def simple_function():
+#   result = 3 * 2
+#   return result

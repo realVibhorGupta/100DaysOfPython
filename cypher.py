@@ -1,57 +1,34 @@
-def greet():
-  print("hi") 
-  print("hello")  
-  print("how are you")
+
+# # import greet
+# # import paint
+
+# # from prime import is_prime
+
+# # Cypher
 
 
-# greet()
+# alphabet = ['A', 'B' , 'C' , 'D' , 'E' , 'F' , 'G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z']
 
-def greetOne(name):
-  print(f"Hi {name}, how are you?")
+# direction = input("Type 'encode' to encrypt ,type 'decrypt' to decrypt: \n")
+# text = input("Type your message :  \n")
+# shift = int(input("Type your shift number :  \n"))
 
-greetOne("vibhor")
+# def encrypt(text,shift):
+  
+#   message = ""
+#   for letter in text:
+#     position = alphabet.index(letter)
+#     new_position = position + shift 
+#     new_text = alphabet[new_position]
+#     message += new_text
 
-# functions with more than 1 parameters
-def greet_with(name,location):
-    print(f"Hi {name}, how are you?")
-    print(f"What is like in {location}?")
+#     print(f"The encrypted text is {message}")
 
-# positional Argument
-greet_with("Rahul", "New Delhi")
+# encrypt(text=text,shift=shift)
 
-# to fix this
-# Keyword Arguments
-greet_with(location = "New Jersy",name = "Rahul")
-
-import math
-# PSET-2
-test_h = int(input("Height of Wall: "))
-test_w = int(input("width of Wall: "))
-coverage = 5 
+# def decrypt(text,shift):
+#     pass
 
 
-def calc(height,width,cover):
-   result =  math.ceil((height * width) / cover )
-   return print(f"You will need {result} cans of paint")
+# decrypt(text=text,shift=shift)
 
- 
-calc(height = test_h, width=test_w, cover=coverage)
-
-
-# Prime number checker
-# a number which is divided only by 1 and itself 
-
-number = int(input("Enter a number: \n"))
-
-def is_prime(number):
-   is_prime_number = True
-   for i in range(2,number):
-       if number % i == 0:
-          is_prime_number = False
-   if is_prime_number:
-      print("It's a prime number.")
-   else:
-      print("It's not a prime number.")
-
-
-is_prime(number)
